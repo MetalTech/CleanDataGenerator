@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Tipos de Base de Datos">
+    <Position X="9.984" Y="1.052" Height="0.344" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Estructuras&#xD;&#xA;Lista Propia&#xD;&#xA;Lista Personalizada&#xD;&#xA;Expresiones Regulares">
+    <Position X="15.828" Y="0.5" Height="0.781" Width="1.96" />
+  </Comment>
   <Class Name="MTech.Cdg.Core.Column">
     <Position X="6" Y="2.5" Width="1.5" />
     <TypeIdentifier>
@@ -9,13 +15,21 @@
   </Class>
   <Class Name="MTech.Cdg.Core.Constraint">
     <Position X="4.25" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="MTech.Cdg.Core.ObjectBase" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="3" Y="1.796" />
+        <Point X="3" Y="2.125" />
+        <Point X="5" Y="2.125" />
+        <Point X="5" Y="2.5" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Constraint.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MTech.Cdg.Core.ObjectBase">
-    <Position X="2.5" Y="0.5" Width="1.5" />
+    <Position X="2.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAQAAAAAA=</HashCode>
       <FileName>ObjectBase.cs</FileName>
@@ -30,61 +44,65 @@
   </Class>
   <Class Name="MTech.Cdg.Core.Relation">
     <Position X="2.25" Y="2.5" Width="1.75" />
+    <InheritanceLine Type="MTech.Cdg.Core.ObjectBase" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="3.25" Y="1.796" />
+        <Point X="3.271" Y="1.904" />
+        <Point X="3.271" Y="2.125" />
+        <Point X="3.125" Y="2.125" />
+        <Point X="3.125" Y="2.5" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAACA=</HashCode>
       <FileName>Relation.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MTech.Cdg.Core.PriorityAnalyzer">
-    <Position X="3" Y="4.5" Width="1.5" />
+  <Class Name="MTech.Cdg.Core.CharGenerator">
+    <Position X="11.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
-      <FileName>PriorityAnalyzer.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="MTech.Cdg.Core.ModelContainer">
-    <Position X="0.5" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ModelContainer.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="MTech.Cdg.Core.RelationOffAnalyzer" Collapsed="true">
-    <Position X="7.25" Y="5.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
-      <FileName>RelationOffAnalyzer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>CharGenerator.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="MTech.Cdg.Core.RelationOnAnalyzer" Collapsed="true">
-    <Position X="5" Y="5.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
-      <FileName>RelationOnAnalyzer.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="MTech.Cdg.Core.AnalyzerResult" Collapsed="true">
-    <Position X="0.5" Y="6" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAEAAAAA=</HashCode>
-      <FileName>AnalyzerResult.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Interface Name="MTech.Cdg.Core.ITableAnalyzer" Collapsed="true">
-    <Position X="6" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
-      <FileName>ITableAnalyzer.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Enum Name="MTech.Cdg.Core.DataType">
-    <Position X="6" Y="1" Width="1.5" />
+  <Class Name="MTech.Cdg.Core.StringGenerator">
+    <Position X="15.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DataType.cs</FileName>
+      <FileName>StringGenerator.cs</FileName>
     </TypeIdentifier>
-  </Enum>
+  </Class>
+  <Class Name="MTech.Cdg.Core.IntGenerator">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>IntGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MTech.Cdg.Core.DateTimeGenerator">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>DateTimeGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MTech.Cdg.Core.VarcharGenerator">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>VarcharGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MTech.Cdg.Core.IDataTypeGenerator&lt;T&gt;">
+    <Position X="10" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>IDataTypeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

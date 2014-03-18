@@ -39,8 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharGenerator.cs" />
     <Compile Include="Column.cs" />
     <Compile Include="DataType.cs" />
+    <Compile Include="DateTimeGenerator.cs" />
+    <Compile Include="IDataTypeGenerator.cs" />
+    <Compile Include="IntGenerator.cs" />
     <Compile Include="ITableAnalyzer.cs" />
     <Compile Include="ModelContainer.cs" />
     <Compile Include="ObjectBase.cs" />
@@ -51,7 +55,10 @@
     <Compile Include="AnalyzerResult.cs" />
     <Compile Include="RelationOffAnalyzer.cs" />
     <Compile Include="RelationOnAnalyzer.cs" />
+    <Compile Include="Sql2012Generator.cs" />
+    <Compile Include="StringGenerator.cs" />
     <Compile Include="Table.cs" />
+    <Compile Include="VarcharGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DiagramaClases.cd" />
