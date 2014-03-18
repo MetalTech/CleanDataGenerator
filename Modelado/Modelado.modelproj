@@ -5,10 +5,10 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{65d612d2-c5b3-4d1f-bd37-77d00058b647}</ProjectGuid>
+    <ProjectGuid>{d2c172e4-8079-4366-9a7c-b3783aa161f5}</ProjectGuid>
     <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
-    <Name>Modeling</Name>
-    <RootNamespace>Modeling</RootNamespace>
+    <Name>Modelado</Name>
+    <RootNamespace>Modelado</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -23,7 +23,7 @@
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
     <Folder Include="ModelDefinition\" />
-    <Content Include="ModelDefinition\Modeling.uml">
+    <Content Include="ModelDefinition\Modelado.uml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
