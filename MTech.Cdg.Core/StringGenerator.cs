@@ -5,7 +5,10 @@ using System.Text;
 
 namespace MTech.Cdg.Core
 {
-    public class StringGenerator
+    public class StringGenerator : StructGenerator
     {
+        public StringGenerator(string resourceName) : base(resourceName)
+        {
+        }
     }
 }

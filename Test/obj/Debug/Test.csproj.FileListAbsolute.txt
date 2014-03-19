@@ -1,0 +1,5 @@
+C:\Users\Gonzalo\Documents\GitHub\CleanDataGenerator\Test\bin\Debug\Test.dll
+C:\Users\Gonzalo\Documents\GitHub\CleanDataGenerator\Test\bin\Debug\Test.pdb
+C:\Users\Gonzalo\Documents\GitHub\CleanDataGenerator\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Gonzalo\Documents\GitHub\CleanDataGenerator\Test\obj\Debug\Test.dll
+C:\Users\Gonzalo\Documents\GitHub\CleanDataGenerator\Test\obj\Debug\Test.pdb

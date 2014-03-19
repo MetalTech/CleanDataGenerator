@@ -3,8 +3,11 @@
   <Comment CommentText="Tipos de Base de Datos">
     <Position X="9.984" Y="1.052" Height="0.344" Width="1.7" />
   </Comment>
-  <Comment CommentText="Estructuras&#xD;&#xA;Lista Propia&#xD;&#xA;Lista Personalizada&#xD;&#xA;Expresiones Regulares">
-    <Position X="15.828" Y="0.5" Height="0.781" Width="1.96" />
+  <Comment CommentText="Expresiones Regulares">
+    <Position X="17.724" Y="1.031" Height="0.344" Width="1.7" />
+  </Comment>
+  <Comment CommentText="ListaPropia&#xD;&#xA;ListaPersonalizada">
+    <Position X="14.839" Y="0.812" Height="0.531" Width="1.7" />
   </Comment>
   <Class Name="MTech.Cdg.Core.Column">
     <Position X="6" Y="2.5" Width="1.5" />
@@ -67,7 +70,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="MTech.Cdg.Core.StringGenerator">
-    <Position X="15.75" Y="1.75" Width="1.5" />
+    <Position X="14.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>StringGenerator.cs</FileName>
@@ -97,11 +100,40 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="MTech.Cdg.Core.StructGenerator">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>StructGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MTech.Cdg.Core.RegExpGenerator">
+    <Position X="17.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegExpGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="MTech.Cdg.Core.IDataTypeGenerator&lt;T&gt;">
     <Position X="10" Y="1.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
       <FileName>IDataTypeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MTech.Cdg.Core.IStructGenerator">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>IStructGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MTech.Cdg.Core.IRegExpGenerator">
+    <Position X="17.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>IRegExpGenerator.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

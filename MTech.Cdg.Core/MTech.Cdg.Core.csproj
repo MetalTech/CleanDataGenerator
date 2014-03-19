@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,18 +46,22 @@
     <Compile Include="DateTimeGenerator.cs" />
     <Compile Include="IDataTypeGenerator.cs" />
     <Compile Include="IntGenerator.cs" />
+    <Compile Include="IRegExpGenerator.cs" />
+    <Compile Include="IStructGenerator.cs" />
     <Compile Include="ITableAnalyzer.cs" />
     <Compile Include="ModelContainer.cs" />
     <Compile Include="ObjectBase.cs" />
     <Compile Include="PriorityAnalyzer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Constraint.cs" />
+    <Compile Include="RegExpGenerator.cs" />
     <Compile Include="Relation.cs" />
     <Compile Include="AnalyzerResult.cs" />
     <Compile Include="RelationOffAnalyzer.cs" />
     <Compile Include="RelationOnAnalyzer.cs" />
     <Compile Include="Sql2012Generator.cs" />
     <Compile Include="StringGenerator.cs" />
+    <Compile Include="StructGenerator.cs" />
     <Compile Include="Table.cs" />
     <Compile Include="VarcharGenerator.cs" />
   </ItemGroup>
