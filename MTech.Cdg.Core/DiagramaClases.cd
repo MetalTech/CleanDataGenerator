@@ -9,6 +9,9 @@
   <Comment CommentText="ListaPropia&#xD;&#xA;ListaPersonalizada">
     <Position X="14.839" Y="0.812" Height="0.531" Width="1.7" />
   </Comment>
+  <Comment CommentText="Metadata">
+    <Position X="20.898" Y="0.521" Height="0.291" Width="1.7" />
+  </Comment>
   <Class Name="MTech.Cdg.Core.Column">
     <Position X="6" Y="2.5" Width="1.5" />
     <TypeIdentifier>
