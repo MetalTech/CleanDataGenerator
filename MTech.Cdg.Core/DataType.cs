@@ -7,5 +7,8 @@ namespace MTech.Cdg.Core
 {
     public enum DataType
     {
+        VarChar,
+        Char,
+        Int
     }
 }

@@ -9,5 +9,7 @@ namespace MTech.Cdg.Core
     {
         public List<Column> Columns { get; set; }
         public List<Constraint> Constraints { get; set; }
+
+        public int Level { get; set; }
     }
 }
