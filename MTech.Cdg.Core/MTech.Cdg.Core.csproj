@@ -45,6 +45,7 @@
     <Compile Include="Column.cs" />
     <Compile Include="DataType.cs" />
     <Compile Include="DateTimeGenerator.cs" />
+    <Compile Include="IDataBase.cs" />
     <Compile Include="IDataTypeGenerator.cs" />
     <Compile Include="IntGenerator.cs" />
     <Compile Include="IRegExpGenerator.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="RelationOffAnalyzer.cs" />
     <Compile Include="RelationOnAnalyzer.cs" />
     <Compile Include="Sql2012Generator.cs" />
+    <Compile Include="SqlDataBase.cs" />
     <Compile Include="StringGenerator.cs" />
     <Compile Include="StructGenerator.cs" />
     <Compile Include="Table.cs" />
