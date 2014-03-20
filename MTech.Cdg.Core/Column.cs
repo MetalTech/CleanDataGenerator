@@ -6,5 +6,7 @@
         public bool IsPk { get; set; }
         public bool IsUnique { get; set; }
         public bool IsIdentity { get; set; }
+
+        public int size { get; set; }
     }
 }

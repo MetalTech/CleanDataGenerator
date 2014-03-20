@@ -11,22 +11,15 @@ namespace MTech.Cdg.Core
         {
             get
             {
-                throw new System.NotImplementedException();
+                return Guid.NewGuid().ToString();
             }
-            set
-            {
-            }
+            
         }
 
         public string Name
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
     }
 }
