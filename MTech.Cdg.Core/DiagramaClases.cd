@@ -15,7 +15,7 @@
   <Class Name="MTech.Cdg.Core.Column">
     <Position X="6" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAgAAAQAAIAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAgIAAQAAIAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Column.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -118,6 +118,14 @@
       <FileName>RegExpGenerator.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="MTech.Cdg.Core.SqlDataBase" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SqlDataBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="MTech.Cdg.Core.IDataTypeGenerator&lt;T&gt;">
     <Position X="10" Y="1.5" Width="2" />
     <TypeIdentifier>
@@ -137,6 +145,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
       <FileName>IRegExpGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MTech.Cdg.Core.IDatabase" Collapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDataBase.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
