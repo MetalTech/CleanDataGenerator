@@ -7,11 +7,15 @@ namespace MTech.Cdg.Core
 {
     public class ObjectBase
     {
+        private  string _identifier ;
+
         public string Identifier
         {
             get
             {
-                return Guid.NewGuid().ToString();
+                if (string.IsNullOrEmpty(_identifier))
+                    _identifier = Guid.NewGuid().ToString();
+                return _identifier;
             }
             
         }

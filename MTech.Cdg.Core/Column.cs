@@ -8,5 +8,7 @@
         public bool IsIdentity { get; set; }
 
         public int size { get; set; }
+
+        public DataType datatype { get; set; }
     }
 }
