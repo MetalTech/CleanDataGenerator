@@ -66,6 +66,7 @@
     <Compile Include="StringGenerator.cs" />
     <Compile Include="StructGenerator.cs" />
     <Compile Include="Table.cs" />
+    <Compile Include="Typer.cs" />
     <Compile Include="VarcharGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
