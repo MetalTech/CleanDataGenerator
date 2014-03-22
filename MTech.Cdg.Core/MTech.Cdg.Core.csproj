@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CharGenerator.cs" />
-    <Compile Include="Column.cs" />
+    <Compile Include="Entities\Column.cs" />
     <Compile Include="DataType.cs" />
     <Compile Include="DateTimeGenerator.cs" />
     <Compile Include="IDataBase.cs" />
@@ -66,11 +66,10 @@
     <Compile Include="StringGenerator.cs" />
     <Compile Include="StructGenerator.cs" />
     <Compile Include="Table.cs" />
+    <Compile Include="Typer.cs" />
     <Compile Include="VarcharGenerator.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="DiagramaClases.cd" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
