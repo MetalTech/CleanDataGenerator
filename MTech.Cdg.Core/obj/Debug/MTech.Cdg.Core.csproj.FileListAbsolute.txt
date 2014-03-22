@@ -1,5 +1,0 @@
-C:\Users\Gonzalo\Documents\GitHub\CleanDataGenerator\MTech.Cdg.Core\bin\Debug\MTech.Cdg.Core.dll
-C:\Users\Gonzalo\Documents\GitHub\CleanDataGenerator\MTech.Cdg.Core\bin\Debug\MTech.Cdg.Core.pdb
-C:\Users\Gonzalo\Documents\GitHub\CleanDataGenerator\MTech.Cdg.Core\obj\Debug\MTech.Cdg.Core.dll
-C:\Users\Gonzalo\Documents\GitHub\CleanDataGenerator\MTech.Cdg.Core\obj\Debug\MTech.Cdg.Core.pdb
-C:\Users\Gonzalo\Documents\GitHub\CleanDataGenerator\MTech.Cdg.Core\obj\Debug\MTech.Cdg.Core.csprojResolveAssemblyReference.cache
