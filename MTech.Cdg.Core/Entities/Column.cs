@@ -9,6 +9,7 @@
 
         public int size { get; set; }
 
+        public Typer typed { get; set; }
         public DataType datatype { get; set; }
     }
 }
