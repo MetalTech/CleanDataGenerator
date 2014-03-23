@@ -190,39 +190,25 @@ namespace Test
 
         private string GeneradorLista(IReadOnlyList<string> list)
         {
-            return list[myRandom.instance().Next(list.Count - 1)];
+            return list[MyRandom.Instance().Next(list.Count - 1)];
         }
         private string GenerarString(int size, bool fix = true)
         {
             const string font = "abcdefghijklmnñopqrstuvwxyz";
             var result = string.Empty;
-            size = fix ? size : (myRandom.instance().Next(size));
+            size = fix ? size : (MyRandom.Instance().Next(size));
             for (var i = 0; i < size; i++)
             {
-                result += font[myRandom.instance().Next(font.Length)].ToString();
+                result += font[MyRandom.Instance().Next(font.Length)].ToString();
             }
             return result;
         }
 
         private string GenerarInt(int size = 100)
         {
-            return myRandom.instance().Next(size).ToString();
+            return MyRandom.Instance().Next(size).ToString();
         }
-
-        private class myRandom
-        {
-            private static Random _myRandom;
-            private myRandom()
-            {
-
-            }
-
-            public static Random instance()
-            {
-                _myRandom = _myRandom ?? new Random();
-                return _myRandom;
-            }
-        }
+        
 
 
     }

@@ -45,9 +45,14 @@
     <Compile Include="Entities\Column.cs" />
     <Compile Include="DataType.cs" />
     <Compile Include="DateTimeGenerator.cs" />
+    <Compile Include="Generator\Generator.cs" />
+    <Compile Include="Generator\GeneratorCreator.cs" />
+    <Compile Include="Generator\IGenerator.cs" />
+    <Compile Include="Generator\IGeneratorCreator.cs" />
+    <Compile Include="Generator\MyRandom.cs" />
     <Compile Include="IDataBase.cs" />
     <Compile Include="IDataTypeGenerator.cs" />
-    <Compile Include="IntGenerator.cs" />
+    <Compile Include="Generator\IntGenerator.cs" />
     <Compile Include="IRegExpGenerator.cs" />
     <Compile Include="IStructGenerator.cs" />
     <Compile Include="ITableAnalyzer.cs" />
@@ -63,7 +68,7 @@
     <Compile Include="RelationOnAnalyzer.cs" />
     <Compile Include="Sql2012Generator.cs" />
     <Compile Include="SqlDataBase.cs" />
-    <Compile Include="StringGenerator.cs" />
+    <Compile Include="Generator\StringGenerator.cs" />
     <Compile Include="StructGenerator.cs" />
     <Compile Include="Table.cs" />
     <Compile Include="Typer.cs" />

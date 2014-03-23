@@ -9,6 +9,10 @@ namespace MTech.Cdg.Core
     {
         VarChar,
         Char,
-        Int
+        Int,
+        String,
+        Date,
+        Time,
+        DateTime
     }
 }
